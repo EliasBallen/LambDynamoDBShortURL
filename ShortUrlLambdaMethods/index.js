@@ -7,7 +7,7 @@ exports.handler = async (event) => {
         const params = {
             TableName: process.env.TABLE_NAME, // Nombre de la tabla
             Key: {
-                'user_id': { S: 'alice456' } // Valor de la clave de partición
+                'short_url': { S: 'xdaszes' } // Valor de la clave de partición
             }
         };
         // Realiza la operación de lectura de un usuario
